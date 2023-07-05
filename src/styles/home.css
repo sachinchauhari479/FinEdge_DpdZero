@@ -1,0 +1,36 @@
+/* Styles for the landing section */
+.landing-section {
+    background-color: #f5f5f5;
+    padding: 4rem 2rem;
+    
+  }
+  
+  .landing-content{
+    padding-top: 5rem;
+    height: 548px;
+    text-align: center;
+    overflow: auto;
+  }
+  
+  /* Styles for the landing title */
+  .landing-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Styles for the landing description */
+  .landing-description {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  @media screen and (max-width: 768px) {
+    .landing-title {
+        font-size: 2rem;
+      }
+    
+      .landing-description {
+        font-size: 1rem;
+      }
+  }

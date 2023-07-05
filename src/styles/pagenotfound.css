@@ -1,0 +1,30 @@
+.not-found {
+    height: 615px;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .not-found h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .not-found p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .not-found {
+      padding: 20px;
+    }
+  
+    .not-found h1 {
+      font-size: 24px;
+    }
+  
+    .not-found p {
+      font-size: 16px;
+    }
+  }
+  
